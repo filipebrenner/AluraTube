@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraTube</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          AluraTube
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        <p class="page-subtitle">
+          Quais são seus videos do Youtube favoritos?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="linkDoVideo" name="linkDoVideo" placeholder="Insira o link do video" required>
+            <button onClick="adicionarVideo()">Adicionar Vídeo do YouTube <i class="fab fa-youtube"></i> </b>
+        </div>
+    </div>
+    <div id="listaVideos"></div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+<script src="app.js"></script>
+</body>
+</html>
